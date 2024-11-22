@@ -3,7 +3,6 @@ import sqlite3 from "sqlite3";
 
 const router = Router();
 
-// Initialize the SQLite database connection
 const db = new sqlite3.Database("./src/db/dua_main.sqlite", (err: any) => {
   if (err) {
     console.error("Error connecting to the database:", err.message);
