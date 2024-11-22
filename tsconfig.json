@@ -1,26 +1,26 @@
 {
   "compilerOptions": {
-    "target": "ESNext",                  // Use ESNext for modern JavaScript features
-    "module": "ESNext",                  // Set module system to ESNext for ES Modules
-    "moduleResolution": "node",          // Resolve modules like Node.js
-    "outDir": "./dist",                  // Output compiled JS to the 'dist' folder
-    "esModuleInterop": true,             // Allow compatibility with CommonJS modules (like Express)
-    "skipLibCheck": true,                // Skip type checking of declaration files
-    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names
-    "strict": true,                      // Enable strict type checking
-    "resolveJsonModule": true,           // Allow importing JSON files
-    "allowJs": true,                     // Allow JavaScript files to be imported
-    "experimentalDecorators": true,      // Enable support for decorators (if needed, e.g., Prisma)
-    "baseUrl": ".",                      // Set base directory for relative paths
+    "target": "ESNext",                 
+    "module": "ESNext",                  
+    "moduleResolution": "node",          
+    "outDir": "./dist",                 
+    "esModuleInterop": true,             
+    "skipLibCheck": true,               
+    "forceConsistentCasingInFileNames": true, 
+    "strict": true,                      
+    "resolveJsonModule": true,           
+    "allowJs": true,                     
+    "experimentalDecorators": true,      
+    "baseUrl": ".",                     
     "paths": {
-      "@/*": ["src/*"]                   // Optionally add path mappings (e.g., for aliases)
+      "@/*": ["src/*"]                  
     }
   },
   "include": [
-    "src/**/*"                           // Include all TypeScript files in the src folder
+    "src/**/*"                           
   ],
   "exclude": [
-    "node_modules",                      // Exclude the node_modules folder from compilation
-    "dist"                               // Exclude the output directory from compilation
+    "node_modules",                      
+    "dist"                               
   ]
 }
